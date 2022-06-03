@@ -1,0 +1,195 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d1d1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 100vh;
+}
+
+.Button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+.Button_default {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 18px;
+}
+
+.Button_positive {
+  background-color: #64c964;
+  color: white;
+}
+
+.Button_negative {
+  background-color: white;
+  color: gray;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: #e2e2e2 1px solid;
+}
+.Button_conFirm {
+  width: 169px;
+  background-color: white;
+  color: gray;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: #e2e2e2 1px solid;
+}
+
+/* HEADER */
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+header > div {
+  display: flex;
+}
+
+header .head_text {
+  width: 68%;
+  font-size: 20px;
+  font-weight: 600;
+  /* justify-content: center; */
+}
+
+header .head_btn_left {
+  width: 7%;
+  justify-content: start;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+header .head_btn_right {
+  width: 25%;
+  justify-content: end;
+  font-size: 25px;
+}
+.headDataWrapper {
+  border-bottom: none;
+  margin-top: -25px;
+  margin-bottom: -30px;
+}
+.headDataWrapper .headDate_text {
+  width: 80%;
+  font-size: 25px;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.headDataWrapper .headDate_btn_left {
+  width: 10%;
+  justify-content: start;
+}
+
+.headDataWrapper .headDate_btn_right {
+  width: 10%;
+  justify-content: end;
+}
+/* 합격여부 상태값에따라 다르게 css */
+.pass_wrapper {
+  width: 80px;
+  margin-left: 20px;
+  margin-right: 15px;
+  /* height: 80px; */
+  max-height: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.pass_wrapper_합격 {
+  background-color: #64c964;
+}
+.pass_wrapper_불합격 {
+  background-color: #fd565f;
+}
+.pass_wrapper_대기 {
+  background-color: #fdce17;
+}
+
+/* pagenation */
+.pageWrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.pageControl {
+  margin-top: 16px;
+}
+.pageSelect {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pageButton {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0;
+  background: black;
+  color: white;
+  font-size: 1rem;
+}
+.pageButton:hover {
+  background: tomato;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+.pageButton:disabled {
+  background: rgb(179, 179, 179);
+  cursor: revert;
+  transform: revert;
+}
+.pageButton:focus {
+  background: deeppink;
+  font-weight: bold;
+  cursor: revert;
+  transform: revert;
+}

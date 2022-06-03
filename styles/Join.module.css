@@ -1,0 +1,113 @@
+.container {
+  width: 450px;
+}
+
+.joinInput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 18px;
+}
+
+.redFont {
+  color: red;
+  margin-top: -10px;
+}
+
+.phoneWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.phoneButton {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.inputWrapper {
+  display: flex;
+}
+
+.blindIcon {
+  margin-top: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.policy {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.form_agreement_all {
+  display: flex;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.checkboxAll {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  vertical-align: top;
+  margin-left: -9px;
+  margin-right: 1px;
+}
+
+.orenge {
+  color: rgb(255, 115, 0);
+}
+
+.essentialWrapper {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.grayFont {
+  color: grey;
+}
+.checkboxs {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  vertical-align: top;
+  margin-left: -9px;
+  margin-right: 1px;
+}
+
+.form_agreement {
+  display: flex;
+  align-items: center;
+}
+
+.checkLabel {
+  width: 88%;
+}
+.check_wrp_right {
+  width: 4%;
+  justify-content: end;
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+}
+.radioHeader {
+  display: flex;
+}
+.question {
+  padding-top: 20px;
+  margin-left: 10px;
+  color: #c9c9c9;
+  font-size: 18px;
+}
+.radioWrapper {
+  margin-top: -10px;
+}
+.radioBtn {
+  margin-right: 30px;
+}

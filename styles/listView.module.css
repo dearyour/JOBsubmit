@@ -1,0 +1,140 @@
+.container {
+  width: 700px;
+}
+.controlMenu {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.menu_wrapper {
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.right_col {
+  flex-grow: 1;
+}
+
+.right_col button {
+  width: 100%;
+  height: 93%;
+}
+/* 면접리스트 헤더 부분 */
+.listHeader {
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+}
+.dateInfos {
+  min-width: 80px;
+}
+.info_wrappers {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+/* 헤더 합격여부  */
+.pass_fail_wrappers {
+  min-width: 120px;
+  max-height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 면접 개별 내용 부분 */
+.listViewItem {
+  padding-top: 15px;
+
+  border-bottom: 1px solid #e2e2e2;
+
+  display: flex;
+  justify-content: space-between;
+}
+.dateInfo {
+  min-width: 80px;
+}
+.pass_fail_wrapper {
+  min-width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.info_wrapper {
+  flex-grow: 1;
+  margin-left: 40px;
+}
+
+.company {
+  font-weight: bold;
+  font-size: 20px;
+}
+.company span {
+  cursor: pointer;
+}
+.contnetToggleBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.contnetToggleBtn span {
+  cursor: pointer;
+}
+.contnetToggleBtn button {
+  max-width: 47px;
+  max-height: 40px;
+  background-color: #f3f3f3;
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+.nicknameWrapper {
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+}
+.hitCount {
+  min-width: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+/* 검색 창 부분 */
+.searchBarWrap {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 1rem 1rem;
+  margin-bottom: 15px;
+}
+.searchBarIcon {
+  color: grey;
+  margin-right: 2rem;
+}
+
+.searchBarWrap input {
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.searchBarWrap input::placeholder {
+  color: grey;
+}

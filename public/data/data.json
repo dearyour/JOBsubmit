@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "nickname": "KimYongHee",
+    "categoryResult": "합격",
+    "hitCount": 5,
+    "company": "잡코리아",
+    "dateTime": 1654917257577,
+    "content": "면접 하나도 안떨렸어요"
+  },
+  {
+    "id": 2,
+    "nickname": "Boston",
+    "categoryResult": "대기",
+    "hitCount": 6,
+    "company": "알바몬",
+    "dateTime": 1654829257577,
+    "content": "기대됩니다"
+  },
+  {
+    "id": 3,
+    "nickname": "Gs",
+    "categoryResult": "합격",
+    "hitCount": 15,
+    "company": "게임잡",
+    "dateTime": 1654739257577,
+    "content": "그렇군요"
+  },
+  {
+    "id": 4,
+    "nickname": "uinness",
+    "categoryResult": "대기",
+    "hitCount": 3,
+    "company": "게임잡",
+    "dateTime": 1654639257577,
+    "content": "어려웠습니다"
+  },
+  {
+    "id": 5,
+    "nickname": "Gnness",
+    "categoryResult": "대기",
+    "hitCount": 5,
+    "company": "삼성",
+    "dateTime": 1654539257577,
+    "content": "근사합니다"
+  },
+  {
+    "id": 6,
+    "nickname": "Xuss",
+    "categoryResult": "합격",
+    "hitCount": 20,
+    "company": "SSAFY",
+    "dateTime": 1653539257577,
+    "content": "잘지내시죠"
+  },
+  {
+    "id": 7,
+    "nickname": "uines",
+    "categoryResult": "대기",
+    "hitCount": 7,
+    "company": "게임잡",
+    "dateTime": 1652539257577,
+    "content": "훌륭합니다"
+  },
+  {
+    "id": 8,
+    "nickname": "Boston",
+    "categoryResult": "불합격",
+    "hitCount": 6,
+    "company": "알바몬",
+    "dateTime": 1654829257577,
+    "content": "멋있어요!"
+  },
+  {
+    "id": 9,
+    "nickname": "Guess",
+    "categoryResult": "합격",
+    "hitCount": 23,
+    "company": "SK",
+    "dateTime": 1653539257577,
+    "content": "근사합니다"
+  },
+  {
+    "id": 10,
+    "nickname": "Guinss",
+    "categoryResult": "합격",
+    "hitCount": 19,
+    "company": "KT",
+    "dateTime": 1653539257577,
+    "content": "최고입니다"
+  },
+  {
+    "id": 11,
+    "nickname": "uinness",
+    "categoryResult": "합격",
+    "hitCount": 17,
+    "company": "잡코리아",
+    "dateTime": 1649539257577,
+    "content": "최고입니다"
+  },
+  {
+    "id": 12,
+    "nickname": "Guinness",
+    "categoryResult": "불합격",
+    "hitCount": 7,
+    "company": "사람인",
+    "dateTime": 1649439257577,
+    "content": "별로에요!"
+  },
+  {
+    "id": 13,
+    "nickname": "Guss",
+    "categoryResult": "불합격",
+    "hitCount": 30,
+    "company": "SSAFY",
+    "dateTime": 1653539257577,
+    "content": "최고입니다"
+  },
+  {
+    "id": 14,
+    "nickname": "uines",
+    "categoryResult": "대기",
+    "hitCount": 7,
+    "company": "게임잡",
+    "dateTime": 1652639257577,
+    "content": "훌륭합니다"
+  },
+  {
+    "id": 15,
+    "nickname": "Guss",
+    "categoryResult": "합격",
+    "hitCount": 120,
+    "company": "SSAFY",
+    "dateTime": 1653739257577,
+    "content": "최고입니다"
+  },
+  {
+    "id": 16,
+    "nickname": "uines",
+    "categoryResult": "대기",
+    "hitCount": 7,
+    "company": "잡코리아",
+    "dateTime": 1652939257577,
+    "content": "훌륭합니다"
+  },
+  {
+    "id": 17,
+    "nickname": "Gngdo",
+    "categoryResult": "불합격",
+    "hitCount": 25,
+    "company": "투썸플레이스",
+    "dateTime": 1654517257577,
+    "content": "면접 너무좋았어요"
+  },
+  {
+    "id": 18,
+    "nickname": "Gdo",
+    "categoryResult": "합격",
+    "hitCount": 35,
+    "company": "잡코리아",
+    "dateTime": 1654917257577,
+    "content": "면접 너무좋았어요"
+  }
+]
